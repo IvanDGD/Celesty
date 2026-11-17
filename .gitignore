@@ -1,0 +1,26 @@
+# Node
+node_modules/
+.next/
+.open-next/
+.wrangler/
+dist/
+.turbo/
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Окружение и секреты
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Система и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
